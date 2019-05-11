@@ -8,11 +8,9 @@ import java.io.Serializable;
 /**
  * http 请求返回
  */
-@Entity
 @Data
-public class ResultVO<T> implements Serializable {
+public class ResultVO<T> {
 
-    private static final long serialVersionUID = 3068837394742385883L;
     /**
      * 错误码
      */
